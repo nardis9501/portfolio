@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motionTransitions";
@@ -12,14 +11,14 @@ export default function HomePage(props) {
 
       <main className="flex flex-col items-start">
         <motion.div
-          variants={fadeIn("down", 0.5)}
+          variants={fadeIn("right", 0.5)}
           initial="hidden"
           animate="show"
           exit={"hidden"}
         >
           <h2 className="bg-blue-600/10 text-blue-600">Hi there! I'm Nardis</h2>
 
-          <blockquote className="text-5xl text-left">
+          <blockquote className="capitalize text-5xl text-left">
             A{" "}
             <span className="inline-block text-blue-600">
               Frontend Engineer
