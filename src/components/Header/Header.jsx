@@ -13,8 +13,8 @@ export default function Header(props) {
           exit={"hidden"}
         >
           <div className="conteiner justify-between mx-auto md:flex">
-            <Link>
-              <h1 className="my-3 text-4xl text-center text-white md:text-left">
+            <Link className="font-semibold">
+              <h1 className="my-3 text-4xl text-white md:text-left">
                 Nardis
                 <span className="text-secondary">Dev</span>
               </h1>
