@@ -23,6 +23,7 @@ export default function Header(props) {
               {socialNetworks.map(({ logo, src }) => (
                 <Link
                   key={src}
+                  to={src}
                   target="_blank"
                   className="transition-all duration-300 hover:text-secondary"
                 >
