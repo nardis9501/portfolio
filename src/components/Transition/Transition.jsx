@@ -7,7 +7,7 @@ export default function Transition(props) {
       <AnimatePresence mode="wait">
         <div>
           <motion.div
-            className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#242883]"
+            className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-primaryTheme"
             variants={transitionVariantsPage}
             initial="initial"
             animate="animate"
@@ -16,7 +16,7 @@ export default function Transition(props) {
           ></motion.div>
 
           <motion.div
-            className="fixed top-0 bottom-0 right-full w-screen h-screen z-20 bg-[#1B4454] opacity-50"
+            className="fixed top-0 bottom-0 right-full w-screen h-screen z-20 bg-secondaryTheme opacity-50"
             variants={transitionVariantsPage}
             initial="initial"
             animate="animate"
