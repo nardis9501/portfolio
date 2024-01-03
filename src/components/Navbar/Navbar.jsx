@@ -8,7 +8,7 @@ export default function Navbar(props) {
   return (
     <>
       <motion.div
-        className="fixed bottom-0 right-0 w-full z-20 flex flex-col items-center md:justify-center h-max md:top-1/4 md:right-10 md:w-16 md:h-screen mt-auto"
+        className="fixed bottom-0 right-0 w-full z-10 flex flex-col items-center md:justify-center h-max md:top-1/4 md:right-10 md:w-16 md:h-screen mt-auto"
         variants={fadeIn("right", 0.5)}
         initial="hidden"
         animate="show"
