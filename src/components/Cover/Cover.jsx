@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import Particles from "react-tsparticles";
 import { optionsParticles } from "./particleOptions";
 import { loadSlim } from "tsparticles-slim";
+import Introduction from "../Introduction/Introduction";
 export default function Cover(props) {
   const particlesInit = useCallback(async (engine) => {
     await loadSlim(engine);
@@ -22,6 +23,8 @@ export default function Cover(props) {
           loaded={particlesLoaded}
           options={optionsParticles}
         />
+
+        <Introduction />
       </div>
     </>
   );
