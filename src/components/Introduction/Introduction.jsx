@@ -28,16 +28,13 @@ export default function Introduction(props) {
               animate="show"
               exit={"hidden"}
             >
-              <h1 className="mb-5 text-4xl leading-tight md:mb-10 ">
+              <h1 className="mb-5 text-2xl md:text-4xl leading-tight md:mb-10 ">
                 Design is not just what it looks and feels like.
                 <br />
                 <span className="text-secondary">Design is how it works.</span>
               </h1>
-              <p className="max-w-sm  mb-10 text-xl sm:max-w-mx md:max-w-xs lg:max-w-96 xl:max-w-md  md:mx-0 md:mb-16 md:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              <p className="max-w-sm  mb-10 text-sm sm:max-w-mx md:max-w-xs lg:max-w-96 xl:max-w-md  md:mx-0 md:mb-16 md:text-xl">
+                If you can think about it, you can program it.
               </p>
 
               <div className="flex flex-col items-center gap-3 md:gap-10 md:flex-row ">
