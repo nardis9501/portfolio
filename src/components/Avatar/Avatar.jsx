@@ -1,5 +1,6 @@
 import { animations, motion } from "framer-motion";
 import { fadeIn } from "../../utils/motionTransitions";
+import image from "../../assets/avatar.png";
 
 export default function Avatar(props) {
   return (
@@ -13,7 +14,7 @@ export default function Avatar(props) {
       >
         <img
           className="overflow-clip"
-          src="src/assets/avatar.png"
+          src={image}
           alt="avatar"
           height={600}
           width={600}
