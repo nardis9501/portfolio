@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Introduction(props) {
   return (
     <>
-      <div className="bg-[#131424]/60 w-full absolute top-0 left-0 h-full z-10">
+      <div className="bg-[#131424]/15 dark:bg-[#131424]/60 w-full absolute top-0 left-0 h-full z-10">
         <div className="w-full h-full bg-gradient-to-r from-[#131424]/10 via-black/10 to-black/5">
           <div className="container grid items-center h-full px-5 md:pr-28 lg:pr-0 mx-auto md:grid-cols-2 text-left">
             <motion.div
