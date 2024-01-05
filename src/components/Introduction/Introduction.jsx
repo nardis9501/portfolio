@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motionTransitions";
 import image from "../../assets/nardis.jpg";
 import { Link } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import placeholder from "../../assets/nardis-min.jpg";
 export default function Introduction(props) {
   return (
     <>
@@ -15,10 +18,14 @@ export default function Introduction(props) {
               animate="show"
               exit={"hidden"}
             >
-              <img
-                className="w-52 h-auto rounded-lg"
+              <LazyLoadImage
+                className="rounded-lg"
                 src={image}
+                height={300}
+                width={228}
                 alt="avatar"
+                //effect="blur"
+                placeholderSrc={placeholder}
               />
             </motion.div>
 
